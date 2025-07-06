@@ -578,6 +578,12 @@ padding-left: 24px;
     height: 40px;
   }
 
+  .icon-modal{
+   transform:translate(-50%);
+   top: 8px;
+   left:16px;
+}
+
   label{
     font-weight: 400;
     font-size: 12px;
