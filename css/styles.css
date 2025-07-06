@@ -496,6 +496,92 @@ align-items:baseline ;
     margin-bottom: 16px;
 }
 
-
-
 /* footer and */
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+ 
+     
+     
+}
+
+.modal{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 408px;
+    min-height: 584px;
+    border-radius: 4px;
+    background-color:#fcfcfc;
+    transform: translate(-50%,-50%);
+    box-shadow:box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-clous{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:24px ;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    stroke-width: 1px ;
+    stroke: rgba(0, 0, 0, 0.1);
+    background-color: #e7e9fc;
+}
+.btn-clous:hover{
+    border: none;
+    background-color:#404bbf;
+    fill: #fff;
+   }
+.page-modal{
+    padding-top: 72px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 16px;
+}
+.form-label{
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+
+}
+.container-modal{
+padding-left: 24px;
+    
+}
+
+.container-modal-icon{
+  position: relative;
+}
+
+.container-modal-icon >.icon-modal {
+    position: absolute;
+    
+   }
+
+  .form-input{
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+  }
+
+  label{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99
+  }
